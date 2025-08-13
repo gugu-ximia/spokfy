@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'variaveis' as *;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: $cor-fundo;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
